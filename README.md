@@ -3,7 +3,7 @@ Ur
 
 A language for defining game systems.
 
-Any roleplaying system is, at its core, the language by which its users define their characters, their worlds, their actions, and by extension their stories. I therefore strive to build a language that is as flexible, powerful, and user-friendly as I can possibly manage.
+Any roleplaying system is, at its core, the language by which its users define their characters, their worlds, their actions, and by extension their stories. I therefore strive to build a language that is as flexible, powerful, and user-friendly as I can possibly manage. This document contains the core, the basic concepts from which all things using this language are built. More refined terms, concepts, and tools can be found in the Main Document or in the Libraries.
 
 #1.) Basic Building Blocks#
 These are the basic tools from which every facet of a game will be refined. Ideally, they can handle any possible situation either right out of the box or with minimal and easy modification. For now this is sort of a binary system, comprised of two main categories from which everything else is descended: Objects and Events. In general, these can be described concisely as things with which you can interact directly and things with which you can't (you can't really speak to having your toes stepped on, and you can't really touch a plot to overthrow a ruler; but you can yell at the toe-stepper, just as you can steal the tools that might be used to enact the plot).
