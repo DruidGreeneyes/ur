@@ -1,0 +1,15 @@
+##A) Making decisions in-game##
+Arbiter(Type)
+{Anything that makes or is used to make decisions about rules or effects that require them. This includes the GM/DM, if applicable, all players, as well as dice, decks of cards, and all other randomizing tools.}
+
+Neutral Arbiter(Arbiter)
+{An Arbiter over which no person involved in the game has any control. This differentiates dice and other independent randomizing tools from players and GMs}
+
+Die(Neutral Arbiter)
+{Referenced in the form "d(x)" where x is the number of sides desired. When a Die is called in an Event, the appropriate Player (Player for Actions triggered by a given Player-Character, or GM for all other Events) rolls the appropriate Die and replaces the "d(x)" call with the number shown on the Die.}
+
+Player(Arbiter)
+{Must be a Person. Makes all decisions regarding the creation, maintenance, and actions of his or her Player-Character during the game in question, except where Neutral Arbiters or the GM say otherwise.}
+
+Game-Master(Player)
+{Has no Player-Character. Makes all decisions regarding the creation, maintenance, and actions of the World and the Game, except for the Player-Characters. Has final say over all Rules in the game (including the Player-Characters and their actions). When two players have a disagreement or when a Rule is unclear, it is the Game-Master who solves the disagreement or interprets the application of the Rule for the game in question.}

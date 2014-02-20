@@ -1,0 +1,23 @@
+##B)Building the Game System##
+Process(Rule)
+{Describes the order in which rules or sets of rules are to be enacted. This can be used to define things like the Order of Play in a Combat Round, or the order in which multiple stacked effects are resolved.}
+
+Turn(Process)
+{The order in which the Active Player acts:
+    1. Check Lingering Effects and remove all that have ended.
+    2. Apply Active Lingering Effects.
+    3. Perform Turn Proper.
+    4. This turn ends. Next Player starts his or her Turn.}
+
+Turn Proper(Turn)
+{The Active Player may do any, all, or none of the following things, in any order:
+    A. Move.
+    B. Act.}
+
+Modifier(Rule)
+{An Adjective, to be invoked as a Parent in order to apply its text to the invoking Child.}
+
+Heavy(Armor, Modifier)
+{Weight and Defense Characteristics are modified from the Parent:
+Weight x 1.5
+Defense + 3}

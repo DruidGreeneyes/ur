@@ -1,0 +1,24 @@
+##C)Building the World##
+Universe(Inanimate)
+{Contains everything that happens "within" the game. All events and actions occur within the Universe, and all Characters are participants in and members of the Universe.}
+
+World(Universe)
+{A subset of the Universe demarcated by some physical boundary. This can be one planet of many, or one plane of existence, or just one cave. A world can contain any number of other worlds.}
+
+Item(Inanimate)
+{Anything that should be tracked in a Character's Inventory.}
+
+Weapon(Item)
+{Any Item whose design is to inflict harm on others. Has a Damage Characteristic.}
+
+Armor(Item)
+{Any Item whose design is to protect its user from harm. Has a Defense Characteristic.}
+
+Shield(Armor)
+{Designed to be held in one or more hands and moved to intercept incoming attacks. Has a Characteristic for the number of hands required: nH, where n is the number of hands.}
+
+Spiked Shield(Shield, Weapon)
+{1H
+2 Armr
+d6 Dmg}
+

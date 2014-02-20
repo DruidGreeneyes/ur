@@ -1,0 +1,114 @@
+Any roleplaying system is, at its core, the language by which its users define their characters, their worlds, their actions, and by extension their stories. I therefore strive to build a language that is as flexible, powerful, and user-friendly as I can possibly manage.
+
+#1.) Basic Building Blocks#
+These are the basic tools from which every facet of a game will be refined. Ideally, they can handle any possible situation either right out of the box or with minimal and easy modification. For now this is sort of a binary system, comprised of two main categories from which everything else is descended: Objects and Events. In general, these can be described concisely as things with which you can interact directly and things with which you can't (you can't really speak to having your toes stepped on, and you can't really touch a plot to overthrow a ruler; but you can yell at the toe-stepper, just as you can steal the tools that might be used to enact the plot).
+
+*Note: This dichotomy isn't completely absolute. Certainly there can be situations in which a character might talk to or even negotiate with the aforementioned plot (trippy, but totally doable!); but in this case, the plot is represented as an Object (probably a Character, if any sort of in-depth conversation is to happen) for the duration of all direct interactions.*
+
+Technically, everything is descended from Rules (which are rules for building Rules, circular as that seems), of which almost every statement in this document is one; and most things are descended from Types, which are Rules for building your specific game and world. But for most of what you do with this system, you will be using Objects and Events. We'll talk more about Rules and Types at a later point.
+
+##Objects##
+Everything with which you can directly interact is a type of Object, including your world and everything in it. Every Object has a more or less detailed set of Characteristics, inherited from its closest parent Type. Thus, the lower you go on the Object Type tree, the more complex, detailed, and specific the characteristics of a given Object will be. An Object can be the child of multiple Parents; if the Characteristics of two of its parents overlap or conflict, those of the Parent that is lower on the Object Type tree take precedence, and if two Parents are at the same level on the Object Type tree, you will have to handle Characteristic overlaps or conflicts on a case-by-case basis.
+
+For example, the only Characteristic of the object Object is that it has Characteristics. By contrast, we can imagine Stephen King, who is an Author. He is an Object, so he has Characteristics. He is a Character (which is a type of Actor, which is a type of Object), so he has Attributes and Skills (one of them may be Writing, or if you are in a more medieval frame of mind, Ballads or something of that nature). He is a Citizen, which is a type of Character with the Characteristic that they are allowed to exercise voting power in some governmental body, and in his case, he's a Citizen both of Maine and the US, as well as whatever township and county boundaries he falls within. He is a Professional, which is a type of Character that spends a certain subset of time (x hours per day, x days per week or month, etc) performing some type of Work (Work is an Event, by the way). In his case, he is an Author, so for him that type of Work is Writing. He might be an Author of Popular Fiction, a type of Author who applies certain Characteristics to the Stories that he writes. He is a Minor Celebrity, which is a type of Character with the Characteristic that within a certain Geographic Area (mostly the US, in this case) he has a higher than average chance of being recognized on sight (unless of course he's wearing a disguise prepared by somebody with a high Disguises Skill). He is also sometimes a Band Member, which is a type of Musician (a Type of Character who makes Music) who makes Music in conjunction with a group of other Band Members, all of whom are members of a given Musical Band. (Musical Band is a type of Party, which is a type of Group, which is a type of Actor, which is a type of Object, if you're interested). The Type tree that leads to a specific Entity (Stephen King, or the Necronomicon, or anything else that is unique (i.e. it is at the end of a branch in the Type tree, and has no children.)) doesn't need to be as complicated as all that, but it can be as simple or complex, as vague or detailed as you need it to be, depending on how you define Types and Child Types and how you assign Characteristics to Objects. If we are playing a game that only has to do with writing, we can define Stephen King simply as a Character whose stories have certain Characteristics, and maybe as an Author, a type of Character who has been paid for his stories before. Properly defined, he can be no more and no less than you need him to be. Characteristic, by the way, is also a Type.
+
+##Actors and Inanimates##
+An Actor is a type of Object with the added Characteristic that it can enact intent upon something outside itself. Stephen King can write books. A shark (Possibly a Type of Fish, or Animal) can smell, hunt, attack, kill, and eat, among other things. But the ocean usually cannot decide which way its waves ought to move, and a rock usually cannot pick a place to fall. The ocean and the rocks will in most implementations of this system be Inanimates, though there's no absolute reason they must be one or the other.
+
+##Events##
+Events are happenings. Everything from a storm moving in to a girl tying her shoes to a rock sitting there and doing absolutely nothing, but doing it very emphatically, can be defined as an Event or some Child Type of Event. Every event has a specific effect on the world or one or more things in it. Child types of Event are defined by adding restrictions. For example, a Discreet Event is an Event that has specific Start and End conditions along with an effect. An Action is a Discreet Event whose start condition is that it is directly triggered by an Actor (So, a warrior swinging a sword is an Action, but swinging a sword to cut a rope to loose a pile or rocks down a hillside is a series of Discreet Events, only one of which is actually an Action). You could refine this further by writing definitions for, say, Channeled Actions (which require an Actor to not do anything else for the duration of the Action).
+
+In most circumstances you won't think about how a sequence of events should be parsed into its constituents, and there's no reason you must at any time. But as with Objects, your definition for a given Event can be as detailed or as vague as you need it to be, depending on how you define it in relation to its Parents and Children. For example, we can define a Presidential Election as a Discreet Event whose start and end conditions are given points in time, during which Citizens of a given government may vote for one of two contenders for President. Or we can Define the US Presidential Election as a Type of Presidential Election, which is a type of Election, which is a type of Governmental Process, which is a type of Action, which is a type of Discreet Event, which is a type of Event. Each of those definitions refines a little bit on the Event type until you end up with a detailed description of the Election process for the United States of America. 
+
+##Rules and Types##
+Rules are the core of any role-playing system, including this one. Everything that you define when building and playing your game (This world has or doesn't have magic, PCs are or are not allowed to do Jumping Jacks, a Dragon is a type of Magical Beast, Damage is calculated by rolling this die or that, etc.) is a type of Rule. You could take any system ever written, and if you remove all of the colorful language, what you would have is a list of Rules. In that sense, this particular system is as much a meta-system, or a system for building systems, as it is a system for building worlds and stories. The main difference between this system and many others is that this one uses Inheritance to condense the definition of any given Rule or Type for easy reference. Thus, if we have defined Actor, we can define Character simply as an Actor that has Attributes and Skills with which to make checks. If we have defined Character, we can define Stephen King as a Character who has high intelligence and low flexibility, a high skill in Writing, but probably not much skill in lockpicking (although you never know with authors). You can define anything simply by stating what refines it from its Parent Type.
+
+This puts a certain amount of responsibility on the shoulders of you, the world or game designer, to balance the complexity and accuracy of your rules and type tree(s) against the needs of your players. In general, if you're designing a system, you probably are better able to conceptualize complicated systems than are other people you know (i.e. your players and users). As such, it's probably a good rule of thumb to streamline and simplify as much as possible, wherever possible, whenever you can.
+
+#2.)Libraries#
+(or)
+#One Possibility#
+From this point forward, everything is derived from the concepts described in part 1, which also means that nothing beyond this point is set in stone, and all of it can be modified to your heart's content. It is provided as a jump-start to help you get familiar with the system and how it works. I will start with some definitions that most potential systems and games can probably make use of, and gradually I will refine upon those definitions and others to build one of an effectively infinite number of possible results of this system. Everything here will also be made available in library form, for easy recombination with other sets of rules. Most definitions will be in the following form:
+
+Rule(Direct Parent(s))
+{Body text here.}
+
+For the most part, the only thing I write in the Body text will be statements that refine the Rule from its Parent(s). I will add details or elaborate where it seems appropriate.
+
+##A) Making decisions in-game##
+Arbiter(Type)
+{Anything that makes or is used to make decisions about rules or effects that require them. This includes the GM/DM, if applicable, all players, as well as dice, decks of cards, and all other randomizing tools.}
+
+Neutral Arbiter(Arbiter)
+{An Arbiter over which no person involved in the game has any control. This differentiates dice and other independent randomizing tools from players and GMs}
+
+Die(Neutral Arbiter)
+{Referenced in the form "d(x)" where x is the number of sides desired. When a Die is called in an Event, the appropriate Player (Player for Actions triggered by a given Player-Character, or GM for all other Events) rolls the appropriate Die and replaces the "d(x)" call with the number shown on the Die.}
+
+Player(Arbiter)
+{Must be a Person. Makes all decisions regarding the creation, maintenance, and actions of his or her Player-Character during the game in question, except where Neutral Arbiters or the GM say otherwise.}
+
+Game-Master(Player)
+{Has no Player-Character. Makes all decisions regarding the creation, maintenance, and actions of the World and the Game, except for the Player-Characters. Has final say over all Rules in the game (including the Player-Characters and their actions). When two players have a disagreement or when a Rule is unclear, it is the Game-Master who solves the disagreement or interprets the application of the Rule for the game in question.}
+
+##B)Building the Game System##
+Process(Rule)
+{Describes the order in which rules or sets of rules are to be enacted. This can be used to define things like the Order of Play in a Combat Round, or the order in which multiple stacked effects are resolved.}
+
+Turn(Process)
+{The order in which the Active Player acts:
+    1. Check Lingering Effects and remove all that have ended.
+    2. Apply Active Lingering Effects.
+    3. Perform Turn Proper.
+    4. This turn ends. Next Player starts his or her Turn.}
+
+Turn Proper(Turn)
+{The Active Player may do any, all, or none of the following things, in any order:
+    A. Move.
+    B. Act.}
+
+Modifier(Rule)
+{An Adjective, to be invoked as a Parent in order to apply its text to the invoking Child.}
+
+Heavy(Armor, Modifier)
+{Weight and Defense Characteristics are modified from the Parent:
+Weight x 1.5
+Defense + 3}
+
+##C)Building the World##
+Universe(Inanimate)
+{Contains everything that happens "within" the game. All events and actions occur within the Universe, and all Characters are participants in and members of the Universe.}
+
+World(Universe)
+{A subset of the Universe demarcated by some physical boundary. This can be one planet of many, or one plane of existence, or just one cave. A world can contain any number of other worlds.}
+
+Item(Inanimate)
+{Anything that should be tracked in a Character's Inventory.}
+
+Weapon(Item)
+{Any Item whose design is to inflict harm on others. Has a Damage Characteristic.}
+
+Armor(Item)
+{Any Item whose design is to protect its user from harm. Has a Defense Characteristic.}
+
+Shield(Armor)
+{Designed to be held in one or more hands and moved to intercept incoming attacks. Has a Characteristic for the number of hands required: nH, where n is the number of hands.}
+
+Spiked Shield(Shield, Weapon)
+{1H
+2 Armr
+d6 Dmg}
+
+Helm
+
+Character(Actor)
+Characters are the primary actors in a given game. They the vast majority of interactive roles, and they tend to do most of the things that are done in the world. Anything that can act can be a character, 
+
+a) A character usually starts as a 2x3 grid of six values:
+
+             Mind  | Body  
+Power        (int) | (str)
+Flexibility  (cre) | (agi)
+Resilience   (com) | (end)
+
+These are used to many checks during the game and will change based on the character's skill values. They have a minimum of 1 and a maximum under most (but not all) circumstances of 5. The value of any attribute is governed by the values of its child skills. Lockpicking, for example, is a child of Agility (Flexibility of Body). There can be as many skills as you and your players use, and each is the child of at least one of the six attributes, depending on the game, the players, and the usage of the skill. Bluffing is generally considered to be a child of Creativity and Intellect, but could conceivably be the child of almost any of the six attributes in the right situation. If your character is in a torture cell, you could Bluff by simply Enduring.
