@@ -1,3 +1,6 @@
+##Authors Note##
+This is somewhat out of date, and in any case was concieved from a faulty premise; I think there's potential value in having a legible syntactic construct for defining and organizing rule systems, but inheritance as a foundational principle complicates things in a lot of counter-intuitive ways, destroying the ideal of expressive elegance that I hope for. I need to think of someting else, but this really takes a back seat to more pressing (i.e. paying) projects. I'm open to suggestions though, so if you have an idea, shoot me an email or submit a pr or something and we'll see what's what.
+
 #Ur#
 
 A language convention for defining games and game systems using inheritance and other concepts from programming.
